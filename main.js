@@ -20,3 +20,15 @@ hideMenu.forEach(singleLi => singleLi.addEventListener('click', () => {
     menu.className = 'mob-menu';
     icon.innerHTML = `&#9776;`;
 }));
+
+/*--------- dropdown contact Menu -----------*/
+const contDiv = document.getElementById('phone');
+const contMenu = document.querySelector('.contact-form')
+
+contDiv.addEventListener('click', () => {
+    if (contMenu.className === 'contact-form') {
+        contMenu.className = 'contact-form visible';
+       } else {
+        contMenu.className = 'contact-form';
+       }
+});

@@ -29,7 +29,7 @@
 			<div class="top-menu">
 				<a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo get_template_directory_uri()  . '/img/maximedia-logo.png' ?>" alt="MaxiMedia Druk wielkoformatowy" class="logo-top"></a>
 				<div class="right-side">
-					<div class="phone"><i class="icon-phone"></i></a></div>
+					<div id="phone"><i class="icon-phone"></i></div>
 					<div class="dropdown-icon">&#9776;</div>
 				</div>
 			</div>
@@ -38,6 +38,7 @@
 			?>
 <!-- ------DYNAMIC CONTACT ------ -->
 <div class="contact-form">
+<div class="close">X</div>
 	<p class="h3"><strong>Zadzwoń do nas:</strong></p>
 	<p>pon. ‐ pt. — 08:00 ‐ 16:00</p>
 	<p><a href="tel:+48717509062">tel. +48 71 750 90 62</a></p>
@@ -51,7 +52,6 @@
 		<!-- -->
 				<input type="submit" value="Wyślij"></fieldset>
 		</form>
-
 		<div class="of-result">
 			<div class="success">
 					<p class="header">Dziękujemy za wysłanie wiadomości!</p>

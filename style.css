@@ -83,7 +83,7 @@ body, html, * {
   header ul {
     position: absolute;
     left: 50%;
-    transform: translate(-50%, 11%);
+    transform: translate(-50%, 10%);
     list-style: none;
     text-align: center;
     width: 80%;
@@ -135,6 +135,19 @@ body, html, * {
   flex-direction: column;
   flex-wrap: nowrap;
 }
+.visible {
+  visibility: visible;
+}
+
+.close {
+  font-weight: bolder;
+  font-size: 20px;
+  border: 1px solid #32393F;
+  width: 40px;
+  align-self: flex-end;
+  margin: 2rem;
+  border-radius: 5px;
+}
 
 .contact-form p {
   padding: .5rem 0 0;
@@ -142,14 +155,14 @@ body, html, * {
 
 .contact-form .line {
   width: 60%;
-  padding: 1rem 0 0;
+  padding: 1.5rem 0 0;
   border-bottom: 1px solid #000;
   margin: 0 auto;
 }
 
 .contact-form .h3 {
   font-size: 1.4rem;
-  padding: 2rem 0;
+  padding: 3rem 0 2rem;
 }
 
 .contact-form a {
