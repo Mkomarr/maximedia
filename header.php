@@ -36,4 +36,34 @@
 <!-- ----- DYNAMIC MENU ------- -->
 			<?php wp_nav_menu( $args = array( 'theme_location' => 'header-menu', 'container' => 'nav', 'container_class' => 'top-nav', 'menu_id' => '', 'menu_class' => 'mob-menu', ) );
 			?>
-		</header>
+<!-- ------DYNAMIC CONTACT ------ -->
+<div class="contact-form">
+	<p class="h3"><strong>Zadzwoń do nas:</strong></p>
+	<p>pon. ‐ pt. — 08:00 ‐ 16:00</p>
+	<p><a href="tel:+48717509062">tel. +48 71 750 90 62</a></p>
+	<div class="line"></div>
+		<form>
+			<legend class="h3"><strong>lub napisz do nas:</strong></legend>
+				<textarea name="message" id="of-form-message" placeholder="Tu wpisz treść wiadomości">
+				</textarea>
+				<input type="tel" id="of-form-tel" name="phone" placeholder="Podaj swój numer telefonu – oddzwonimy!" autocomplete="off">
+				<input type="email" id="of-form-email" name="email" placeholder="Podaj swój adres e‐mail – odpiszemy!" autocomplete="off">
+		<!-- -->
+				<input type="submit" value="Wyślij"></fieldset>
+		</form>
+
+		<div class="of-result">
+			<div class="success">
+					<p class="header">Dziękujemy za wysłanie wiadomości!</p>
+					<p>Skontaktujemy się z Tobą najszybciej jak to będzie tylko możliwe.</p>
+						<a class="of-result-close btn btn-default" hreff="#close-form">ZAMKNIJ</a>
+			</div>
+			<div class="failure">
+					<p>Formularz nie został wysłany... spróbuj ponownie za chwilę.</p>
+					<a class="of-result-close btn btn-default" hreff="#close-form">ZAMKNIJ
+					</a>
+			</div>
+		</div>
+	</div>
+</div>
+</header>

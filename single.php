@@ -7,7 +7,7 @@ get_header();
 
 
 		</main><!-- #main -->
-	</section><!-- #primary -->
+	</section>#primary
 
 <?php
 get_footer();
