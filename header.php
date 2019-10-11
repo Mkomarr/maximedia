@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pl" prefix="op: http://media.facebook.com/op#">
 <head>
+	<?php wp_head();?>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
@@ -15,14 +16,13 @@
     <meta property="og:image" content="https://www.maximedia.com.pl/static/b24/2017/06/pion2-a9b426e.jpg">
     <meta property="og:image" content="https://www.maximedia.com.pl/static/b24/2016/03/b48ebdedab515f73bf31328f22372b3e.png">
     <meta property="og:image" content="https://www.maximedia.com.pl/static/b24/2016/03/b48ebdedab515f73bf31328f22372b3e.png">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/style.css' ?>">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_directory_uri() . '/css/fontello.css' ?>">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ) ?>">
 	<title><?php bloginfo('name') ?></title>
 </head>
 
 <html <?php language_attributes(); ?>>
-<body>
+<body <?php body_class(); ?>>
+
 	<div class="container">
 		<header>
 <!-- ----- LOGO & ICONS ------- -->

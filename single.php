@@ -1,13 +1,6 @@
-<?php
-get_header();
-?>
+<?php get_header(); ?>
 
-	<section id="primary" class="content-area">
-		<main id="main" class="site-main">
+<?php the_content(); ?>
 
+<?php get_footer(); ?>
 
-		</main><!-- #main -->
-	</section>#primary
-
-<?php
-get_footer();
