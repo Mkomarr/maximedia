@@ -13,6 +13,10 @@ body, html, * {
   box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
@@ -58,6 +62,12 @@ body, html, * {
     justify-content: right;
   }
 
+  .x-icon {
+    color: #fff;
+    font-size: 30px;
+    padding: 2px 15px 0 0;
+  }
+
   .dropdown-icon {
     font-size: 1.4rem;
     padding: .1rem .5rem;
@@ -65,6 +75,8 @@ body, html, * {
     border: 1px solid white;
     border-radius: 5px;
     background-color: #fff;
+    cursor: pointer;
+    outline: #ADCC47;
   }
 /* -------- MOBILE MENU - VISIBLE -------- */
 
@@ -74,7 +86,7 @@ body, html, * {
     width: 100%;
     height: 100vh;
     position: absolute;
-    top: 0rem;
+    top: 1rem;
   }
   .visible {
     visibility: visible;
@@ -129,7 +141,7 @@ body, html, * {
   width: 100%;
   height: 100vh;
   position: absolute;
-  top: 5.5rem;
+  top: 5rem;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -142,10 +154,7 @@ body, html, * {
 .close {
   font-weight: bolder;
   font-size: 20px;
-  border: 1px solid #32393F;
-  width: 40px;
-  align-self: flex-end;
-  margin: 2rem;
+  padding: 4px 3px 2px 3px;
   border-radius: 5px;
 }
 

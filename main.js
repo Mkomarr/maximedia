@@ -7,7 +7,7 @@ const hideMenu = document.querySelectorAll('.mob-menu')
 icon.addEventListener('click', () => {
     if (menu.className === 'mob-menu') {
      menu.className = 'mob-menu visible';
-     icon.textContent = "X";
+     icon.innerHTML = `<div class="close">X</div>`;
     } else {
      menu.className = 'mob-menu';
      icon.innerHTML = `&#9776;`;
@@ -28,7 +28,9 @@ const contMenu = document.querySelector('.contact-form')
 contDiv.addEventListener('click', () => {
     if (contMenu.className === 'contact-form') {
         contMenu.className = 'contact-form visible';
+        contDiv.innerHTML = `<div class="x-icon">X</div>`;
        } else {
         contMenu.className = 'contact-form';
+        contDiv.innerHTML = `<i class="icon-phone"></i>`;
        }
 });
