@@ -11,12 +11,12 @@
 			08:00 - 16:00
 		</p>
 		<p>
-			+48 71 772 69 69<br/>
-			+48 71 750 90 62
+			<a href="tel:+487177269692">+48 71 772 69 69</a><br/>
+			<a href="tel:+48717509062">+48 71 750 90 62</a>
 		</p>
 		<p>
-			biuro@maximedia.com.pl<br/>
-			druk@maximedia.com.pl
+			<a href="mailto:biuro@maximedia.com.pl">biuro@maximedia.com.pl</a><br/>
+			<a href="mailto:druk@maximedia.com.pl">druk@maximedia.com.pl</a>
 		</p>
 	</section>
 
@@ -29,12 +29,13 @@
 	<footer>
 		<div class="blue-backg">
 			© 2019 MAXI MEDIA<br/>
-			Polityka prywatności
+			<!-- ----- DYNAMIC MENU ------- -->
+			<?php wp_nav_menu( $args = array( 'menu' => 'Footer', 'theme_location' => 'footer', 'container' => 'div', 'container_class' => '', 'menu_id' => '', 'menu_class' => 'priv-policy-link', ) );
+			?>
 		</div>
 	</footer>
 
 </div>
 <?php wp_footer(); ?>
-	<?php $blog_info = get_bloginfo( 'name' ); ?>
 </body>
 </html>

@@ -72,7 +72,8 @@
 	<section class="offer">
 		<div class="offer-box">
 			<p>Obecnie wykonujemy wysokiej jakości wydruki solwentowe oraz UV z kolorem białym i wybiórczym lakierem. Drukujemy na banerach i płaskich mediach, zajmujemy się również drukiem fototapet, wykładzin podłogowych i folii aluminiowych.</p>
-			<button>Skontaktuj się z nami!</button>
+			<button><?php wp_nav_menu( $args = array( 'menu' => 'Contact', 'theme_location' => 'front-page' ) );
+			?></button>
 		</div>
 	</section>
 </main>

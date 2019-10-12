@@ -1,9 +1,13 @@
 <?php
 
-function register_my_menu() {
-    register_nav_menu('header-menu',__( 'Top' ));
+function register_my_menus() {
+    register_nav_menus( array(
+      'header-menu' => __( 'Top' ),
+      'footer' => __('Footer'),
+      'contact' => __('Contact')
+    ));
   }
-  add_action( 'init', 'register_my_menu' );
+  add_action( 'init', 'register_my_menus' );
 
 function load_stylesheets() {
 

@@ -23,46 +23,26 @@
 <html <?php language_attributes(); ?>>
 <body <?php body_class(); ?>>
 
-	<div class="container">
-		<header>
+<div class="container">
+	<header>
 <!-- ----- LOGO & ICONS ------- -->
 			<div class="top-menu">
 				<a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo get_template_directory_uri()  . '/img/maximedia-logo.png' ?>" alt="MaxiMedia Druk wielkoformatowy" class="logo-top"></a>
 				<div class="right-side">
-					<div id="phone"><i class="icon-phone"></i></div>
-					<div class="dropdown-icon" tabindex="0">&#9776;</div>
+					<button id="phone"><i class="icon-phone"></i></button>
+					<button class="dropdown-icon">&#9776;</button>
 				</div>
 			</div>
 <!-- ----- DYNAMIC MENU ------- -->
 			<?php wp_nav_menu( $args = array( 'theme_location' => 'header-menu', 'container' => 'nav', 'container_class' => 'top-nav', 'menu_id' => '', 'menu_class' => 'mob-menu', ) );
 			?>
 <!-- ------DYNAMIC CONTACT ------ -->
-<div class="contact-form">
-	<p class="h3"><strong>Zadzwoń do nas:</strong></p>
-	<p>pon. ‐ pt. — 08:00 ‐ 16:00</p>
-	<p><a href="tel:+48717509062">tel. +48 71 750 90 62</a></p>
-	<div class="line"></div>
-		<form>
-			<legend class="h3"><strong>lub napisz do nas:</strong></legend>
-				<textarea name="message" id="of-form-message" placeholder="Tu wpisz treść wiadomości">
-				</textarea>
-				<input type="tel" id="of-form-tel" name="phone" placeholder="Podaj swój numer telefonu – oddzwonimy!" autocomplete="off">
-				<input type="email" id="of-form-email" name="email" placeholder="Podaj swój adres e‐mail – odpiszemy!" autocomplete="off">
-		<!-- -->
-				<input type="submit" value="Wyślij"></fieldset>
-		</form>
-		<div class="of-result">
-			<div class="success">
-					<p class="header">Dziękujemy za wysłanie wiadomości!</p>
-					<p>Skontaktujemy się z Tobą najszybciej jak to będzie tylko możliwe.</p>
-						<a class="of-result-close btn btn-default" hreff="#close-form">ZAMKNIJ</a>
-			</div>
-			<div class="failure">
-					<p>Formularz nie został wysłany... spróbuj ponownie za chwilę.</p>
-					<a class="of-result-close btn btn-default" hreff="#close-form">ZAMKNIJ
-					</a>
-			</div>
+		<div class="contact-form">
+			<p class="h3"><strong>Zadzwoń do nas:</strong></p>
+			<p class="tel"><a href="tel:+48717509062">tel. +48 71 750 90 62</a></p>
+			<p>pon. ‐ pt. — 08:00 ‐ 16:00</p>
+			<div class="line"></div>
+			<p class="h3"><strong>lub napisz:</strong></p>
+				<?php echo do_shortcode( '[contact-form-7 id="63" title="Kontakt"]' ); ?>
 		</div>
-	</div>
-</div>
-</header>
+	</header>
