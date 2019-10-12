@@ -6,7 +6,7 @@
 <?php get_header(); ?>
 
 <div class="page-container-contact">
-    <div class="contact contact-site">
+    <div class="contact-site">
 
             <?php if (have_posts()) : while(have_posts()) : the_post(); ?>
 

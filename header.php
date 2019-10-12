@@ -25,6 +25,7 @@
 
 <div class="container">
 	<header>
+		<div class="menu-desktop">
 <!-- ----- LOGO & ICONS ------- -->
 			<div class="top-menu">
 				<a href="<?php echo esc_url( home_url( '/' )); ?>"><img src="<?php echo get_template_directory_uri()  . '/img/maximedia-logo.png' ?>" alt="MaxiMedia Druk wielkoformatowy" class="logo-top"></a>
@@ -37,12 +38,13 @@
 			<?php wp_nav_menu( $args = array( 'theme_location' => 'header-menu', 'container' => 'nav', 'container_class' => 'top-nav', 'menu_id' => '', 'menu_class' => 'mob-menu', ) );
 			?>
 <!-- ------DYNAMIC CONTACT ------ -->
-		<div class="contact-form">
-			<p class="h3"><strong>Zadzwoń do nas:</strong></p>
-			<p class="tel"><a href="tel:+48717509062">tel. +48 71 750 90 62</a></p>
-			<p>pon. ‐ pt. — 08:00 ‐ 16:00</p>
-			<div class="line"></div>
-			<p class="h3"><strong>lub napisz:</strong></p>
-				<?php echo do_shortcode( '[contact-form-7 id="63" title="Kontakt"]' ); ?>
+			<div class="contact-form">
+				<p class="h3"><strong>Zadzwoń do nas:</strong></p>
+				<p class="tel"><a href="tel:+48717509062">tel. +48 71 750 90 62</a></p>
+				<p>pon. ‐ pt. — 08:00 ‐ 16:00</p>
+				<div class="line"></div>
+				<p class="h3"><strong>lub napisz:</strong></p>
+					<?php echo do_shortcode( '[contact-form-7 id="63" title="Kontakt"]' ); ?>
+			</div>
 		</div>
 	</header>

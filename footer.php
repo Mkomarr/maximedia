@@ -28,7 +28,7 @@
 
 	<footer>
 		<div class="blue-backg">
-			© 2019 MAXI MEDIA<br/>
+			<p>© 2019 MAXI MEDIA</p>
 			<!-- ----- DYNAMIC MENU ------- -->
 			<?php wp_nav_menu( $args = array( 'menu' => 'Footer', 'theme_location' => 'footer', 'container' => 'div', 'container_class' => '', 'menu_id' => '', 'menu_class' => 'priv-policy-link', ) );
 			?>
