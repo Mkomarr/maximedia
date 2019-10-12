@@ -574,6 +574,12 @@ footer {
 
 .contact-site .form {
   background: #000;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.contact-site .form p {
+  padding-top: 1rem;
 }
 
 .contact-site .h2-contact-form {
@@ -584,6 +590,8 @@ footer {
   padding: 8rem 0 2rem;
   text-decoration: underline;
   background: #000000;
+  margin: 0 auto;
+  left: 0;
 }
 
 .ajax-loader {
