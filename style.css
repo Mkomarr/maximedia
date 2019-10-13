@@ -221,9 +221,9 @@ section {
   text-decoration: underline;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
+.contact-form .wpcf7-form {
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 form textarea {
@@ -236,11 +236,7 @@ form input {
 
 form textarea,
 form input {
-  width: 70%;
-}
-
-.of-result {
-  visibility: hidden;
+  width: 100%;
 }
 
 /* ----------- BODY --------------- */
@@ -248,9 +244,10 @@ form input {
   /* Main banner */
   .headline {
     height: 90vh;
-    background: 
-      linear-gradient(-20deg, 
-      rgba(19, 22, 25,0.8) 0%, 
+    min-height: 40rem;
+    background:
+      linear-gradient(-20deg,
+      rgba(19, 22, 25,0.8) 0%,
       rgba(19, 22, 25,0.8) 100%),
       url("img/maxi-druk-3a8c0ae.jpg");
     background-size: cover;
@@ -574,12 +571,17 @@ footer {
 
 .contact-site .form {
   background: #000;
-  max-width: 50%;
+  max-width: 350px;
   margin: 0 auto;
 }
 
 .contact-site .form p {
   padding-top: 1rem;
+}
+
+.contact-site .form input,
+.contact-site .form textarea {
+  width: 100%;
 }
 
 .contact-site .h2-contact-form {
@@ -598,6 +600,11 @@ footer {
   display: block !important;
 }
 
+/* .expand {
+  font-size: 2rem;
+  transform: scaleY(0.5) translateY(-20rem);
+} */
+
 .wpcf7-submit {
   background-color: #349fe2;
   color: white;
@@ -614,6 +621,28 @@ form input:focus,
 form textarea:focus {
   border: 2px solid #349FE2;
 }
+
+/* --- APPROVAL --- */
+
+.acceptance-999 {
+  text-align: left;
+  margin: 0;
+  font-size: .7rem;
+}
+
+.approval {
+  display: inline-block;
+  width: 13px !important;
+  height: 13px;
+  margin-right: 10px;
+}
+
+span .wpcf7-list-item {
+  margin: 0;
+  /* height: 3rem;
+  overflow: hidden; */
+}
+
 
 /* --- PRIVACY POLICY --- */
 .privacy-policy {

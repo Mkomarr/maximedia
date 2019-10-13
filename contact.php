@@ -13,6 +13,7 @@
             <section class="form">
             <h2 class="h2-contact-form">Napisz do nas</h2>
             <?php echo do_shortcode( '[contact-form-7 id="63" title="Kontakt"]' ); ?>
+            <!-- <div class="expand">&#709;</div> -->
             </section>
 
             <?php the_content(); ?>

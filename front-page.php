@@ -8,7 +8,7 @@
 </section>
 
 <main>
-	<section class="o-nas">
+	<section class="o-nas" id="oferta">
 		<h3>Specjalizujemy się <br/>w reklamie wewnętrznej <br/>i zewnętrznej</h3>
 		<p>Obecnie zajmujemy się wysokiej jakości wydrukami solwentowymi oraz odpornymi na działanie warunków atmosferycznych wydrukami UV. Drukujemy między innymi na banerze, folii samoprzylepnej, siatce oraz płaskich mediach. Wykonujemy także druk fototapet, wykładzin i aluminium. Realizujemy wydruk na mediach o szerokości nawet do 5 metrów. Współpraca z nami to gwarancja zadowolenia z wysokiego poziomu wykonanej usługi.</p>
 		<div class="print">
@@ -71,7 +71,7 @@
 			</article>
 		</div>
 		</section>
-		<section class="about-us">
+		<section class="about-us" id="about-us">
 			<h3>Drukarnia wielkoformatowa Maxi Media działa na polskim rynku od lat 80.</h3>
 			<p>Powstaliśmy we Wrocławiu, w roku 1982, a 1989 weszliśmy na rynek europejski. Pierwsze lata istnienia firmy łączyły się z produkcją wyrobów z tworzyw sztucznych, dystrybucją folii samoprzylepnej oraz związanymi z nią usługami. W trakcie rozwoju naszej działalności oraz w wyniku wzrostu zapotrzebowania klientów zaczęliśmy szukać innowacyjnych i ambitnych rozwiązań, które pozwoliłyby nam na poszerzenie naszej oferty oraz zdobycie nowego doświadczenia. Zakupiliśmy pierwszą w Polsce maszynę do druku wielkoformatowego GrandJet Scitex pozwalającą na druk banerów o szerokości do 5m. Stopniowo poszerzaliśmy nasz park maszynowy o nowe urządzenia tj. drukarki, oczkarki automatyczne, arkuszarki, czy laminatory, podążając jednocześnie za panującymi trendami na rynku reklamy.</p>
 		</section>

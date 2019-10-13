@@ -34,3 +34,13 @@ contDiv.addEventListener('click', () => {
         contDiv.innerHTML = `<i class="icon-phone"></i>`;
        }
 });
+
+/* ---- EXPANDING APPROVAL ---- */
+
+// const downArrow = document.querySelector('.expand');
+// const expandParagraph = document.querySelector('.wpcf7-list-item');
+
+// expandParagraph.addEventListener('click', () => console.log('dziala'))
+
+// downArrow.addEventListener('click', () =>
+//     expandParagraph.style.cssText = `height:5rem;`);
