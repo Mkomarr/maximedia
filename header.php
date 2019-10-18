@@ -40,7 +40,7 @@
 <!-- ------DYNAMIC CONTACT ------ -->
 			<div class="contact-form">
 				<p class="h3"><strong>Zadzwoń do nas:</strong></p>
-				<p class="tel"><a href="tel:+48717509062">tel. +48 71 750 90 62</a></p>
+				<p class="tel"><a href="tel:+48502716906">tel. +48 502 716 906</a></p>
 				<p>pon. ‐ pt. — 08:00 ‐ 16:00</p>
 				<div class="line"></div>
 				<p class="h3"><strong>lub napisz:</strong></p>

@@ -11,12 +11,10 @@
 			08:00 - 16:00
 		</p>
 		<p>
-			<a href="tel:+487177269692">+48 71 772 69 69</a><br/>
-			<a href="tel:+48717509062">+48 71 750 90 62</a>
+			<a href="tel:+48502716906">tel. +48 502 716 906</a>
 		</p>
 		<p>
-			<a href="mailto:biuro@maximedia.com.pl">biuro@maximedia.com.pl</a><br/>
-			<a href="mailto:druk@maximedia.com.pl">druk@maximedia.com.pl</a>
+			<a href="mailto:formularz@maximedia.com.pl">formularz@maximedia.com.pl</a><br/>
 		</p>
 	</section>
 
