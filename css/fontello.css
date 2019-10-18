@@ -1,11 +1,11 @@
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontello.eot?59217284');
-  src: url('../font/fontello.eot?59217284#iefix') format('embedded-opentype'),
-       url('../font/fontello.woff2?59217284') format('woff2'),
-       url('../font/fontello.woff?59217284') format('woff'),
-       url('../font/fontello.ttf?59217284') format('truetype'),
-       url('../font/fontello.svg?59217284#fontello') format('svg');
+  src: url('../font/fontello.eot?25597923');
+  src: url('../font/fontello.eot?25597923#iefix') format('embedded-opentype'),
+       url('../font/fontello.woff2?25597923') format('woff2'),
+       url('../font/fontello.woff?25597923') format('woff'),
+       url('../font/fontello.ttf?25597923') format('truetype'),
+       url('../font/fontello.svg?25597923#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -15,37 +15,62 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'fontello';
-    src: url('../font/fontello.svg?59217284#fontello') format('svg');
+    src: url('../font/fontello.svg?25597923#fontello') format('svg');
   }
 }
 */
- 
- [class^="icon-"]:before, [class*=" icon-"]:before {
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
- 
+
   display: inline-block;
   text-decoration: inherit;
-  margin-right: .2em;
   text-align: center;
- 
+
   /* For safety - reset parent styles, that can break glyph codes*/
   font-variant: normal;
   text-transform: none;
 
-  font-size: 1.5rem;
-  padding: .3rem .5rem;
-  color: white;
-  border: 1px solid white;
-  border-radius: 5px;
-  background-color: #666;
+  
 
   /* Font smoothing. That was taken from TWBS */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
 }
 
+.icon-phone {
+  font-size: 1.3rem;
+  padding: .3rem .5rem;
+  display: inline-block;
+  text-decoration: inherit;
+  margin-right: .3em;
+  text-align: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  background-color: #666;
+  font-variant: normal;
+  text-transform: none;
+}
+
+.icon-twitter-squared,
+.icon-facebook-squared {
+  font-size: 2.5rem;
+  padding-right: .8rem;
+  color: white;
+}
+
+.icon-twitter-squared:hover,
+.icon-facebook-squared:hover {
+  color: rgb(216, 216, 216);
+}
+
+
 .icon-phone:before { content: '\e800'; } /* '' */
+.icon-youtube-squared:before { content: '\f166'; } /* '' */
+.icon-instagram:before { content: '\f16d'; } /* '' */
+.icon-twitter-squared:before { content: '\f304'; } /* '' */
+.icon-facebook-squared:before { content: '\f308'; } /* '' */

@@ -267,7 +267,7 @@ form input {
 
   h2 {
     position: absolute;
-    top: 70%;
+    top: 58%;
     font-size: 16px;
     width: 100%;
     padding: 1.5rem 0 0 2rem;
@@ -609,7 +609,21 @@ footer {
   color: #fff;
   text-align: justify;
   margin: 0 auto;
+}
+
+.hidden {
   display: none;
+}
+
+.contact-site h4 {
+  padding: 2rem 0;
+  font-size: 1.7rem;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.sm {
+  text-align: center;
 }
 
 .ajax-loader {
@@ -694,6 +708,12 @@ div .wpcf7-response-output {
 
 /* ---- MENU & NAV ---- */
 @media (min-width: 600px) {
+
+  /* --- FRONT SITE HEADER --- */
+  h1 {
+    font-size: 45px;
+  }
+
 
   /* ------------ WHY US ------------ */
   .why-us-container {
@@ -786,9 +806,9 @@ div .wpcf7-response-output {
   }
 
   h1 {
-    font-size: 60px;
-    width: 50%;
-    line-height: 65px;
+    font-size: 70px;
+    width: 58%;
+    line-height: 75px;
     left: 5%;
     top: 30%;
   }
@@ -947,11 +967,28 @@ footer {
   line-height: 1.4rem;
 }
 
+.hidden {
+  display: block;
+}
+
 .contact-site h4 {
   padding: 2rem 0;
   font-size: 1.7rem;
   text-decoration: underline;
+  text-align: left;
+}
+
+.sm {
+  text-align: left;
 }
 
 }
 
+/* --- MQ for H2 --- */
+@media (min-width: 1300px) {
+
+h2 {
+  top: 50%;
+}
+
+}
