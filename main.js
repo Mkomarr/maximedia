@@ -35,12 +35,17 @@ contDiv.addEventListener('click', () => {
        }
 });
 
-/* ---- EXPANDING APPROVAL ---- */
+/*------------hide menu when scroll---------*/
+const topNav = document.querySelector('header');
 
-// const downArrow = document.querySelector('.expand');
-// const expandParagraph = document.querySelector('.wpcf7-list-item');
+let prevScrollpos = window.pageYOffset;
+window.onscroll = () => {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    topNav.style.top = "0";
+  } else {
+    topNav.style.top = "-100px";
+  }
+  prevScrollpos = currentScrollPos;
+}
 
-// expandParagraph.addEventListener('click', () => console.log('dziala'))
-
-// downArrow.addEventListener('click', () =>
-//     expandParagraph.style.cssText = `height:5rem;`);

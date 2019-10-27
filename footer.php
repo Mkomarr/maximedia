@@ -2,7 +2,7 @@
 
         <section class="contact">
 		<p>
-			Maxi Media<br/>
+		Maxi Media<br/>
 			ul. Robotnicza 66<br/>
 			53-608 Wrocław<br/>
 		</p>
@@ -11,10 +11,11 @@
 			08:00 - 16:00
 		</p>
 		<p>
-			<a href="tel:+48502716906">tel. +48 502 716 906</a>
+			<a href="tel:+48717726969">tel. +48 71 772 69 69</a>
 		</p>
 		<p>
-			<a href="mailto:formularz@maximedia.com.pl">formularz@maximedia.com.pl</a><br/>
+			<a href="mailto:biuro@maximedia.com.pl">biuro@maximedia.com.pl</a><br/>
+			<a href="mailto:druk@maximedia.com.pl">druk@maximedia.com.pl</a><br/>
 		</p>
 	</section>
 

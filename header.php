@@ -2,6 +2,16 @@
 <html lang="pl" prefix="op: http://media.facebook.com/op#">
 <head>
 	<?php wp_head();?>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150908503-1"></script>
+		<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-150908503-1');
+		</script>
+
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
